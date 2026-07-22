@@ -37,7 +37,22 @@
       "success": true,
       "data": {
         "name": "Tasks Admin",
-      "permissions": ["todo"]}
+        "permissions": ["todo"]
+      }
+    },
+    "elogadmin": {
+      "success": true,
+      "data": {
+        "name": "eLog Admin",
+        "permissions": ["elog"]
+      }
+    },
+    "admin": {
+      "success": true,
+      "data": {
+        "name": "Admin",
+        "permissions": ["todo", "elog"]
+      }
     }
   }
 }
