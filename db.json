@@ -1,8 +1,7 @@
 {
-  "code": 200,
-  "success": true,
-  "data": [
+  "app-registry": [
     {
+      "id": 1,
       "appCode": "todo",
       "name": "Todo Manager",
       "entry": "https://micro-todo-app.pages.dev/",
@@ -12,6 +11,7 @@
       "authMode": "SSO_CONTEXT"
     },
     {
+      "id": 2,
       "appCode": "elog",
       "name": "eLog",
       "entry": {
@@ -28,5 +28,12 @@
       "status": "ACTIVE",
       "authMode": "SSO_CONTEXT"
     }
-  ]
+  ],
+  "roles": {
+    "tasksadmin": {
+      "id": 1,
+      "name": "Tasks Admin",
+      "permissions": ["todo"]
+    }
+  }
 }
