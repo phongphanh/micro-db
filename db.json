@@ -40,19 +40,5 @@
       "name": "Tasks Admin",
       "permissions": ["todo"]
     }
-  },
-  "logsadmin": {
-    "success": true,
-    "data": {
-      "name": "Logs Admin",
-      "permissions": ["elog"]
-    }
-  },
-  "admin": {
-    "success": true,
-    "data": {
-      "name": "Super Admin",
-      "permissions": ["todo", "elog"]
-    }
   }
 }
