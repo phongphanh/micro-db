@@ -1,34 +1,38 @@
 {
-  "app-registry": [
-    {
-      "id": 1,
-      "appCode": "todo",
-      "name": "Todo Manager",
-      "entry": "https://micro-todo-app.pages.dev/",
-      "activeRule": "/apps/todo",
-      "container": "#subapp-container",
-      "status": "ACTIVE",
-      "authMode": "SSO_CONTEXT"
-    },
-    {
-      "id": 2,
-      "appCode": "elog",
-      "name": "eLog",
-      "entry": {
-        "html": "<div id=\"elog-qiankun-entry\"></div>",
-        "scripts": ["https://micro-elog.pages.dev/qiankun-lifecycle.js"],
-        "styles": [
-          "https://micro-elog.pages.dev/_next/static/chunks/0ubm~s3l4o154.css"
-        ]
+  "app-registry": {
+    "id": "app-registry",
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "appCode": "todo",
+        "name": "Todo Manager",
+        "entry": "https://micro-todo-app.pages.dev/",
+        "activeRule": "/apps/todo",
+        "container": "#subapp-container",
+        "status": "ACTIVE",
+        "authMode": "SSO_CONTEXT"
       },
-      "assetBaseUrl": "https://micro-elog.pages.dev",
-      "disableSandbox": false,
-      "activeRule": "/apps/elog",
-      "container": "#subapp-container",
-      "status": "ACTIVE",
-      "authMode": "SSO_CONTEXT"
-    }
-  ],
+      {
+        "id": 2,
+        "appCode": "elog",
+        "name": "eLog",
+        "entry": {
+          "html": "<div id=\"elog-qiankun-entry\"></div>",
+          "scripts": ["https://micro-elog.pages.dev/qiankun-lifecycle.js"],
+          "styles": [
+            "https://micro-elog.pages.dev/_next/static/chunks/0ubm~s3l4o154.css"
+          ]
+        },
+        "assetBaseUrl": "https://micro-elog.pages.dev",
+        "disableSandbox": false,
+        "activeRule": "/apps/elog",
+        "container": "#subapp-container",
+        "status": "ACTIVE",
+        "authMode": "SSO_CONTEXT"
+      }
+    ]
+  },
   "roles": {
     "tasksadmin": {
       "id": 1,
