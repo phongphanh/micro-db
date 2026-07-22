@@ -41,7 +41,7 @@
       "permissions": ["todo"]
     }
   },
-  "elogsadmin": {
+  "elogadmin": {
     "success": true,
     "data": {
       "name": "eLogs Admin",
