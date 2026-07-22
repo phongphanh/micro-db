@@ -52,7 +52,7 @@
     "success": true,
     "data": {
       "name": "Admin",
-      "permissions": ["todo", "elog"]
+      "permissions": ["todo"]
     }
   }
 }
