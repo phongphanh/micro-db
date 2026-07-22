@@ -34,21 +34,21 @@
       }
     ]
   },
-  "roles/tasksadmin": {
+  "tasksadmin": {
     "success": true,
     "data": {
       "name": "Tasks Admin",
       "permissions": ["todo"]
     }
   },
-  "roles/logsadmin": {
+  "logsadmin": {
     "success": true,
     "data": {
       "name": "Logs Admin",
       "permissions": ["elog"]
     }
   },
-  "roles/admin": {
+  "admin": {
     "success": true,
     "data": {
       "name": "Super Admin",
