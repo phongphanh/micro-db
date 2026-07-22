@@ -10,7 +10,8 @@
         "activeRule": "/apps/todo",
         "container": "#subapp-container",
         "status": "ACTIVE",
-        "authMode": "SSO_CONTEXT"
+        "authMode": "SSO_CONTEXT",
+        "permissions": ["todo"]
       },
       {
         "id": 2,
@@ -28,7 +29,8 @@
         "activeRule": "/apps/elog",
         "container": "#subapp-container",
         "status": "ACTIVE",
-        "authMode": "SSO_CONTEXT"
+        "authMode": "SSO_CONTEXT",
+        "permissions": ["elog"]
       }
     ]
   },
