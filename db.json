@@ -34,27 +34,25 @@
       }
     ]
   },
-  "roles": {
-    "tasksadmin": {
-      "success": true,
-      "data": {
-        "name": "Tasks Admin",
-        "permissions": ["todo"]
-      }
-    },
-    "elogadmin": {
-      "success": true,
-      "data": {
-        "name": "eLog Admin",
-        "permissions": ["elog"]
-      }
-    },
-    "admin": {
-      "success": true,
-      "data": {
-        "name": "Admin",
-        "permissions": ["todo", "elog"]
-      }
+  "roles/tasksadmin": {
+    "success": true,
+    "data": {
+      "name": "Tasks Admin",
+      "permissions": ["todo"]
+    }
+  },
+  "roles/logsadmin": {
+    "success": true,
+    "data": {
+      "name": "Logs Admin",
+      "permissions": ["elog"]
+    }
+  },
+  "roles/admin": {
+    "success": true,
+    "data": {
+      "name": "Super Admin",
+      "permissions": ["todo", "elog"]
     }
   }
 }
