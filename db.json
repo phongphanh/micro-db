@@ -47,12 +47,5 @@
       "name": "Logs Admin",
       "permissions": ["elog"]
     }
-  },
-  "admin": {
-    "success": true,
-    "data": {
-      "name": "Super Admin",
-      "permissions": ["todo", "elog"]
-    }
   }
 }
