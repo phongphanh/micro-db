@@ -47,5 +47,12 @@
       "name": "eLogs Admin",
       "permissions": ["elog"]
     }
+  },
+  "admin": {
+    "success": true,
+    "data": {
+      "name": "Admin",
+      "permissions": ["todo", "elog"]
+    }
   }
 }
