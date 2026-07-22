@@ -41,10 +41,10 @@
       "permissions": ["todo"]
     }
   },
-  "logsadmin": {
+  "elogsadmin": {
     "success": true,
     "data": {
-      "name": "Logs Admin",
+      "name": "eLogs Admin",
       "permissions": ["elog"]
     }
   }
