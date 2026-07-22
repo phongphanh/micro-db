@@ -1,5 +1,5 @@
 {
-  "app-registrys": {
+  "app-registry": {
     "success": true,
     "data": [
       {
@@ -34,9 +34,10 @@
   },
   "roles": {
     "tasksadmin": {
-      "id": 1,
-      "name": "Tasks Admin",
-      "permissions": ["todo"]
+      "success": true,
+      "data": {
+        "name": "Tasks Admin",
+      "permissions": ["todo"]}
     }
   }
 }
